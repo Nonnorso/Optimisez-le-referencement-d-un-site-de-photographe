@@ -17,31 +17,25 @@ body {
 	padding-block: 30px;
 	align-items: center;
 }
-
 .top-header .name {
 	font-size: 26px;
 }
-
 .nav ul {
 	display: flex;
 	list-style-type: none;
 	font-size: 14px;
 	margin-bottom: 0;
 }
-
 .nav li {
 	padding-inline: 10px;
 }
-
 .nav a {
 	text-decoration: none;
 	color: #000
 }
-
 .social-link img {
 	width: 20px;
 }
-
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -49,7 +43,6 @@ body {
 	padding-block: 100px;
 	position: relative;
 }
-
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -60,13 +53,11 @@ body {
 	left: 0;
 	z-index: -1;
 }
-
 .picture {
 	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
 }
-
 .picture img {
 	width: 100%;
 
@@ -89,11 +80,6 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
-
-/* #gallery {
-		min-height: 100vh;
-} */
-
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -118,7 +104,6 @@ body {
 	content: "";
 	display: block;
 	padding-bottom: 100%;
-
 }
 .gallery-item {
 	position: absolute;
@@ -136,7 +121,6 @@ body {
 	display: flex;
 	font-size: 24px;
 }
-
 .quote {
 	font-family: 'Spectral';
 	font-style: italic;
@@ -155,7 +139,6 @@ body {
 	font-weight: 800;
 	font-size: 22px;
 }
-
 #services {
 	margin: auto;
 	background-color: #A8D5D8 ;
@@ -171,14 +154,12 @@ body {
 	left: 0;
 	z-index: 0;
 }
-
 #services .container {
 	justify-content: space-between;
 	display: flex;
 	padding : 2em 0;
 
 }
-
 .service {
 	background-color: white;
 	max-width: 390px;
@@ -190,7 +171,6 @@ body {
 	justify-content: space-between;
 	z-index: 1;
 }
-
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
@@ -198,7 +178,6 @@ body {
 	padding-inline: 100px;
 	padding-block: 100px;
 }
-
 #contact .container {
 	display: flex;
 }
@@ -214,7 +193,6 @@ body {
 }
 .form-container {
 	flex : 2;
-
 }
 form {
 	display: flex;
@@ -222,7 +200,6 @@ form {
 	width: 70%;
 	align-items: flex-start;
 }
-
 form input {
 	width: 100%;
 	background-color: transparent;
@@ -230,7 +207,6 @@ form input {
 	height: 2.5em;
 	margin-bottom: 20px;
 }
-
 form textarea {
 	width: 100%;
 	background-color: transparent;
@@ -244,7 +220,6 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
-
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -260,7 +235,6 @@ input[type="submit"] {
 		width: 100%;
 	}
 }
-
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
@@ -319,7 +293,6 @@ input[type="submit"] {
 		z-index: -1;
 	}
 }
-
 @media all and (max-width: 650px) {
 	.top-header {
 		flex-direction: column;
@@ -353,9 +326,4 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
-}
-
-.carousel-item img{
-	width:100%;
-	height:auto;
 }
