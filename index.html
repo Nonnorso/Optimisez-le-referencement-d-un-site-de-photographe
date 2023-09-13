@@ -303,50 +303,20 @@
 		crossorigin="anonymous">
 </script>
 
-<script>
-	if ('loading' in HTMLScriptElement.prototype) {
-	  const script = document.createElement('script');
-	  script.src = './assets/maugallery.min.js';
-	  script.type = 'module';
-	  script.defer = true;
-	  document.head.appendChild(script);
-	} else {
-	  import('./assets/maugallery.min.js')
-		.catch(error => {
-		  console.error('Une erreur est survenue lors du chargement du script :', error);
-		});
-	}
-  </script>
+<script src="./assets/maugallery.min.js" 
+		type="module" 
+		loading="lazy">
+</script>
 
-<script>
-	if ('loading' in HTMLScriptElement.prototype) {
-	  const script = document.createElement('script');
-	  script.src = './assets/bootstrap/bootstrap.bundle.min.js';
-	  script.type = 'module';
-	  script.defer = true;
-	  document.head.appendChild(script);
-	} else {
-	  import('./assets/bootstrap/bootstrap.bundle.min.js')
-		.catch(error => {
-		  console.error('Une erreur est survenue lors du chargement du script :', error);
-		});
-	}
-  </script>
+<script src="./assets/bootstrap/bootstrap.bundle.min.js" 
+		type="module" 
+		loading="lazy">
+</script>
   
-  <script>
-	if ('loading' in HTMLScriptElement.prototype) {
-	  const script = document.createElement('script');
-	  script.src = './assets/scripts.min.js';
-	  script.type = 'module';
-	  script.defer = true;
-	  document.head.appendChild(script);
-	} else {
-	  import('./assets/scripts.min.js')
-		.catch(error => {
-		  console.error('Une erreur est survenue lors du chargement du script :', error);
-		});
-	}
-  </script>
+<script src="./assets/scripts.min.js" 
+  		type="module" 
+  		loading="lazy"> 
+</script>
   
 
 </body>
